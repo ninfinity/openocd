@@ -196,7 +196,7 @@ struct pending_scan_result {
 
 /* Up to MIN(packet_count, MAX_PENDING_REQUESTS) requests may be issued
  * until the first response arrives */
-#define MAX_PENDING_REQUESTS 3
+#define MAX_PENDING_REQUESTS 1
 
 /* Pending requests are organized as a FIFO - circular buffer */
 /* Each block in FIFO can contain up to pending_queue_len transfers */
